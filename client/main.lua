@@ -81,7 +81,7 @@ AddEventHandler('kash-races:RaceDone', function(race, winner)
     if RaceId ~= 0 and RaceId == race then
         RaceId = 0
         InRace = false
-        ESX.ShowNotification("Race afgelopen! De winnaar is "..winner.. "!")
+        ESX.ShowNotification("Race done! The winner is ~b~"..winner.. "~w~!")
     end
 end)
 
